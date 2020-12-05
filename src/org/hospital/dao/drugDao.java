@@ -360,7 +360,7 @@ public class drugDao {
 		try {
 			Class.forName(DBDRIVER);
 			conn = DriverManager.getConnection(DBURL, DBUSER, DBPASSWORD);
-			String sql = "select * from record;";
+			String sql = "select * from record ORDER by sno DESC;";
 			pstmt = conn.prepareStatement(sql);
 			rs = pstmt.executeQuery();
 			while(rs.next()) {

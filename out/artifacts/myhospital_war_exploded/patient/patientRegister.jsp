@@ -21,7 +21,6 @@
 
 		$(document).ready(function(){
 		});
-
 	</script>
 	<title>用户注册</title>
 </head>
