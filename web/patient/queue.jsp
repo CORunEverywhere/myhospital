@@ -23,9 +23,6 @@
 			<input type="hidden" name="depart"  value="中医科">
 			<input type="submit" value="中医科"><br>
 		</form>
-		<form method= "post" action="patientSuccess.jsp">
-			<input type="submit" value="返回"><br>
-		</form>
 		<div class="about-innergrid-agile text-center">
 			<p class="mb-3">
 				数据库大作业
