@@ -34,7 +34,7 @@
 	<div class="modal-content">
 		<div class="modal-header">
 			<h5 class="modal-title" id="exampleModalLabel">患者信息修改</h5>
-			<a type="button" class="close" data-dismiss="modal" aria-label="Close" href="index.jsp">
+			<a type="button" class="close" data-dismiss="modal" aria-label="Close" href="patientSuccess.jsp">
 				<span aria-hidden="true">&times;</span>
 			</a>
 		</div>
@@ -73,5 +73,5 @@
 		</div>
 	</div>
 </div>
-</body>
+</body>patientSuccess.jsp
 </html>

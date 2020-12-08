@@ -10,7 +10,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>医院管理系统</title>
+    <title>医云</title>
 
     <meta charset="utf-8">
     <script>
@@ -37,7 +37,7 @@
 <!-- main -->
 <div class="w3layouts-main">
     <div class="bg-layer">
-        <h1>医院管理系统</h1>
+        <h1>医云</h1>
         <div class="header-main">
             <div class="main-icon">
                 <img style="height: 100px;width: 100px" src="images/logo.jpg">

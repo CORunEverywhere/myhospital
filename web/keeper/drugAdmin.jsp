@@ -81,7 +81,7 @@
 						第<%=page0.getCurrentPage()+1%>页/共<%=page0.getTotalPage()%>页<br>
 						</tbody>
 					</table>
-					<form action="${pageContext.request.contextPath}/Drug?method=QueryDrugBySno2" method="post">
+					<form action="${pageContext.request.contextPath}/Drug?method=QueryDrugBySno4" method="post">
 						<input type="text" name="sno">
 						<input type="submit" value="按名称查询">
 					</form>

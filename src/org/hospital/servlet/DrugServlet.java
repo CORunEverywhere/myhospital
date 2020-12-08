@@ -164,6 +164,16 @@ public class DrugServlet extends BaseServlet{
         request.setAttribute("ddrug", ddrug);
         request.getRequestDispatcher("keeper/updateDrugRecord.jsp").forward(request, response);
     }
+    public void QueryDrugBySno4(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        request.setCharacterEncoding("utf-8");
+        String no  = request.getParameter("sno")  ;
+        drugService service  = new drugService();
+        List<drug> drugs  = service.queryDrugByName(no) ;
+
+        request.setAttribute("drugs", drugs);
+        request.setAttribute("msg", "查询结果如下");
+        request.getRequestDispatcher("keeper/queryDrug.jsp").forward(request, response);
+    }
     public void QueryDrugBySno(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         //查询后用于对药品信息的更新
         //源页面：drugAdmin.jsp
